@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "libraries": []
+  },
+  "dataStudio": {
+    "name": "IRIS BI",
+    "logoUrl": "https://raw.githubusercontent.com/caretdev/iris-analytics-datastudio/main/img/caretdev-icon.png",
+    "company": "CaretDev Corporation",
+    "companyUrl": "https://caretdev.com/",
+    "addonUrl": "https://github.com/caretdev/iris-analytics-datastudio",
+    "supportUrl": "https://github.com/caretdev/iris-analytics-datastudio/issues",
+    "description": "InterSystems IRIS Business Analytics (DeepSee)",
+    "sources": [
+      "IRIS BI"
+    ],
+    "feeType": [
+      "FREE"
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}

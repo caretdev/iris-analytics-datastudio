@@ -40,13 +40,12 @@ function isAuthValid() {
   const url = userProperties.getProperty('bi.url');
   const userName = userProperties.getProperty('bi.username');
   const password = userProperties.getProperty('bi.password');
-  console.log([url, userName, password]);
   return validateCredentials(url, userName, password);
 }
 
 function validateCredentials(url, userName, password) {
   console.log('validateCredentials', [url, userName, password]);
-  if ((url.match(/https?:\/\//)) && (userName != '') && (password != '')) {
+  if (url && userName && password && url.match(/https?:\/\//)) {
     try {
       return TestConnection();
     } catch (error) {
